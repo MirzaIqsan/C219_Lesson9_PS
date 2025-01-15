@@ -8,14 +8,14 @@ export default function Session() {
 
   return (
     <>
-      <h3>{name}</h3>
+      <h3>{speaker.org}</h3>
       <p>{desc}</p>
 
-      <h4>{speaker.name}</h4>
+      <h4>{speaker.bio}</h4>
       <span>
-        {speaker.title} at {speaker.org}
+        {speaker.title} 
       </span>
-      <p>{speaker.bio}</p>
+      
     </>
   );
 }

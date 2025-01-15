@@ -7,8 +7,8 @@ export default function Confirmation() {
   const {state} = (useLocation())
   return (
     <div className="container">
-      <h1>Thank You!</h1>
-      <p>{state.name} You're now registered for Red30 Tech.</p>
+      <h1>Thank You, {state.name}!</h1>
+      <p>You're now registered for {state.course}</p>
       <p>We've sent more details to <strong>{state.email}</strong>.</p>
     </div>
   );
