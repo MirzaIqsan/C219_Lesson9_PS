@@ -10,8 +10,8 @@ export default function Header() {
         <img
           className="logo"
           src={logo}
-          alt="Red30 Tech logo"
-          title="Red30 Tech | Home"
+          alt="Republic Poly"
+          title="Republic Poly"
         />
       </Link>
 
@@ -19,9 +19,7 @@ export default function Header() {
         <NavLink to="/" className={getClass}>
           Home
         </NavLink>
-        {/* <NavLink to="/about" className={getClass}>
-          About
-        </NavLink> */}
+        
         <NavLink to="/categories" className={getClass}>
           Diplomas
         </NavLink>
